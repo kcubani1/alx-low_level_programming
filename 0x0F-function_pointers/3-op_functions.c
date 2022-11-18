@@ -20,7 +20,6 @@ int op_sub(int a, int b)
 {
 	return (a - b);
 }
-
 /**
  * op_mul - multiplies 2ntegers
  * @a: first int
@@ -52,7 +51,6 @@ int op_div(int a, int b)
  * @b: second int
  * Return: remainder
  */
-
 int op_mod(int a, int b)
 {
 	if (b == 0)
@@ -62,3 +60,4 @@ int op_mod(int a, int b)
 	}
 	return (a % b);
 }
+
